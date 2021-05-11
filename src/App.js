@@ -5,20 +5,6 @@ import {TodoProvider} from './contexts/TodoContext'
 
 function App() {
 
-  
-
-  // const changeCheckedTodo = (id) => {
-  //   setTodos(todos.map((todo) => todo.id === id 
-  //     ? {...todo, checked:!todo.checked}
-  //     : todo))
-  // }
-
-  // const changeCompletedTodo = (id) => {
-  //   setTodos(todos.map((todo) => todo.id === id 
-  //     ? {...todo, completed:!todo.completed}
-  //     : todo))
-  // }
-
   return (
     <TodoProvider>
       <div className="page-content page-container" id="page-content">
